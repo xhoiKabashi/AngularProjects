@@ -1,35 +1,88 @@
-graph TD
-    A[🌦️ Weather App (PWA)] --> B[🚀 Features]
-    B --> B1[Real-Time Weather Data]
-    B1 --> B2[Fetches weather info using OpenWeatherMap API]
-    B --> B3[PWA Support]
-    B3 --> B4[Works offline and installs like a native app]
-    B --> B5[Responsive Design]
-    B5 --> B6[Optimized for mobile and desktop]
-    B --> B7[Service Workers]
-    B7 --> B8[Offline functionality & faster load times]
+# Weather App PWA
 
-    A --> C[🛠️ Technologies Used]
-    C --> C1[Angular 18]
-    C1 --> C2[Frontend framework for building the app]
-    C --> C3[Firebase Hosting]
-    C3 --> C4[For deployment and hosting]
-    C --> C5[OpenWeatherMap API]
-    C5 --> C6[For fetching weather data]
-    C --> C7[Service Workers]
-    C7 --> C8[Enables offline capabilities & caching]
+A Progressive Web App (PWA) built with Angular 18 that provides real-time weather information. The app is deployed using Firebase Hosting and leverages service workers for offline usage.
 
-    A --> D[🚀 Setup]
-    D --> D1[Clone the repository]
-    D1 --> D2[`git clone https://github.com/xhoiKa i/angularPWA.git`]
-    D --> D3[Install dependencies]
-    D3 --> D4[`npm install`]
-    D --> D5[Run the app locally]
-    D5 --> D6[`ng serve`]
-    D --> D7[Build for production]
-    D7 --> D8[`ng build --configuration production`]
-    D --> D9[Deploy to Firebase]
-    D9 --> D10[`firebase deploy`]
+## ✨ Features
 
-    A --> E[🌐 Live Demo]
-    E --> E1[Live App: https://weather-app-ff162.web.app]
+### Real-Time Weather Data
+- Fetches current weather information using the OpenWeatherMap API
+- Provides accurate and up-to-date weather conditions
+
+### PWA Support
+- Works offline through service worker implementation
+- Can be installed on devices like a native app
+- Instant loading with service worker caching
+
+### Responsive Design
+- Optimized for both mobile and desktop devices
+- Fluid layout that adapts to different screen sizes
+- Touch-friendly interface for mobile users
+
+## 🛠️ Technologies Used
+
+- **Angular 18**: Frontend framework
+- **Firebase Hosting**: Deployment and hosting platform
+- **OpenWeatherMap API**: Weather data provider
+- **Service Workers**: Offline functionality and caching
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js and npm installed on your machine
+- Angular CLI installed globally (`npm install -g @angular/cli`)
+- Firebase CLI installed globally (`npm install -g firebase-tools`)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/xhoiKa/angularPWA.git
+   ```
+
+2. Navigate to project directory:
+   ```bash
+   cd angularPWA
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run the app locally:
+   ```bash
+   ng serve
+   ```
+
+5. Open your browser and navigate to `http://localhost:4200`
+
+### Deployment
+
+1. Build for production:
+   ```bash
+   ng build --configuration production
+   ```
+
+2. Deploy to Firebase:
+   ```bash
+   firebase deploy
+   ```
+
+## 🌐 Live Demo
+
+Check out the live application: [Weather App](https://weather-app-ff162.web.app/)
+
+## 📱 PWA Features
+
+- **Offline Support**: Access previous weather data even without internet connection
+- **Install Prompt**: Easy installation on supported devices
+- **Fast Loading**: Cached resources for improved performance
+- **Push Notifications**: Stay updated with weather alerts (coming soon)
+
+## 💡 Contributing
+
+Contributions are welcome! Feel free to submit issues and pull requests.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
