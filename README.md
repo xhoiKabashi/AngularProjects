@@ -1,49 +1,35 @@
-🌦️ Weather App (PWA)
-A Progressive Web App (PWA) built with Angular 18 that provides real-time weather information. The app is deployed using Firebase Hosting and leverages service workers for offline usage.
+graph TD
+    A[🌦️ Weather App (PWA)] --> B[🚀 Features]
+    B --> B1[Real-Time Weather Data]
+    B1 --> B2[Fetches weather info using OpenWeatherMap API]
+    B --> B3[PWA Support]
+    B3 --> B4[Works offline and installs like a native app]
+    B --> B5[Responsive Design]
+    B5 --> B6[Optimized for mobile and desktop]
+    B --> B7[Service Workers]
+    B7 --> B8[Offline functionality & faster load times]
 
-🚀 Features
-Real-Time Weather Data: Fetches weather information using the OpenWeatherMap API.
+    A --> C[🛠️ Technologies Used]
+    C --> C1[Angular 18]
+    C1 --> C2[Frontend framework for building the app]
+    C --> C3[Firebase Hosting]
+    C3 --> C4[For deployment and hosting]
+    C --> C5[OpenWeatherMap API]
+    C5 --> C6[For fetching weather data]
+    C --> C7[Service Workers]
+    C7 --> C8[Enables offline capabilities & caching]
 
-PWA Support: Works offline and can be installed on devices like a native app.
+    A --> D[🚀 Setup]
+    D --> D1[Clone the repository]
+    D1 --> D2[`git clone https://github.com/xhoiKa i/angularPWA.git`]
+    D --> D3[Install dependencies]
+    D3 --> D4[`npm install`]
+    D --> D5[Run the app locally]
+    D5 --> D6[`ng serve`]
+    D --> D7[Build for production]
+    D7 --> D8[`ng build --configuration production`]
+    D --> D9[Deploy to Firebase]
+    D9 --> D10[`firebase deploy`]
 
-Responsive Design: Optimized for both mobile and desktop devices.
-
-Service Workers: Enables offline functionality and faster load times.
-
-🛠️ Technologies Used
-Angular 18: Frontend framework for building the app.
-
-Firebase Hosting: For deployment and hosting.
-
-OpenWeatherMap API: For fetching weather data.
-
-Service Workers: For offline capabilities and caching.
-
-🚀 Setup
-Clone the repository:
-
- 
- 
-git clone https://github.com/xhoiKa i/angularPWA.git
-Install dependencies:
-
- 
- 
-npm install
-Run the app locally:
-
- 
- 
-ng serve
-Build for production:
-
- 
- 
-ng build --configuration production
-Deploy to Firebase:
-
- 
- 
-firebase deploy
-🌐 Live Demo
-Check out the live app: https://weather-app-ff162.web.app
+    A --> E[🌐 Live Demo]
+    E --> E1[Live App: https://weather-app-ff162.web.app]
