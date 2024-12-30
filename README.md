@@ -1,27 +1,49 @@
-# WeatherApp
+🌦️ Weather App (PWA)
+A Progressive Web App (PWA) built with Angular 18 that provides real-time weather information. The app is deployed using Firebase Hosting and leverages service workers for offline usage.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+🚀 Features
+Real-Time Weather Data: Fetches weather information using the OpenWeatherMap API.
 
-## Development server
+PWA Support: Works offline and can be installed on devices like a native app.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Responsive Design: Optimized for both mobile and desktop devices.
 
-## Code scaffolding
+Service Workers: Enables offline functionality and faster load times.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+🛠️ Technologies Used
+Angular 18: Frontend framework for building the app.
 
-## Build
+Firebase Hosting: For deployment and hosting.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+OpenWeatherMap API: For fetching weather data.
 
-## Running unit tests
+Service Workers: For offline capabilities and caching.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+🚀 Setup
+Clone the repository:
 
-## Running end-to-end tests
+ 
+ 
+git clone https://github.com/xhoiKa i/angularPWA.git
+Install dependencies:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ 
+ 
+npm install
+Run the app locally:
 
-## Further help
+ 
+ 
+ng serve
+Build for production:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+ 
+ 
+ng build --configuration production
+Deploy to Firebase:
+
+ 
+ 
+firebase deploy
+🌐 Live Demo
+Check out the live app: https://weather-app-ff162.web.app
